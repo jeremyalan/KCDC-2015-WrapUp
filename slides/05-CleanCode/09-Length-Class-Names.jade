@@ -1,0 +1,14 @@
+section
+    header
+        h2 Naming
+        h3 Length of class names
+    .break
+        div Length decreases with scope
+        pre.
+            // Short public class name
+            public class Account
+            // Longer private class name
+            private class AccountNumberGenerator
+            // Longer derived class name
+            public abstract class Account
+            public class SavingsAccount : Account

@@ -1,0 +1,15 @@
+section
+    header
+        h2 Naming
+        h3 Length of variable names
+    .break
+        div Length increases with scope
+        pre.
+            // Short range variables
+            for (int i = 0; i &lt; 10; i++) {}
+            // Short method variable names
+            var balance = GetAccountBalance();
+            // Longer field variable names
+            private int _totalAccountBalance;
+            // Longer global variable names
+            public int totalBalanceInAllBankAccounts;
