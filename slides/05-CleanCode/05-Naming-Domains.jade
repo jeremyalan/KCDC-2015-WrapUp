@@ -1,0 +1,19 @@
+section
+    header
+        h2 Naming
+        h3 Domains
+    .break
+        div Problem domain
+        pre.
+            public class Customer {};
+            public void AddAccount();
+    .break
+        div Solution domain
+        pre.
+            public class Factory {};
+            public void AddToJobQueue();
+    .break
+        div Use names from both domains
+        pre. 
+            public class CustomerFactory {}
+            public void AddAccountToJobQueue();

@@ -1,0 +1,17 @@
+section
+    header
+        h2 Netduino
+        h3 Example code
+    .break
+        pre.
+            public static void Main()
+            {
+                OutputPort led = new OutputPort(Pins.ONBOARD_LED, false);
+                while (true)
+                {
+                    led.Write(true);
+                    Thread.sleep(500);
+                    led.Write(false);
+                    Thread.sleep(500);
+                }
+            }
