@@ -174,13 +174,13 @@ span.pre .highlight {
 }
 .reveal {
   background: #BBDEFB;
-  color: white;
+  color: #1976D2;
 }
 .reveal h1,
 .reveal h2,
 .reveal h3,
 .reveal h4 {
-  color: white;
+  color: #1976D2;
 }
 .reveal section > header h1,
 .reveal section > header h2,
