@@ -1,0 +1,18 @@
+section
+   header
+      h2 Map Reduce Example
+
+   .break
+      ul
+         li map (InputKey, InputValue) => Set of (IntermediateKey, IntermediateValue)
+         li ex) {0, "Twinkle Twinkle Little Star"} =>
+            ul.small-80
+               li {"Little", 1}
+               li {"Star", 1}
+               li {"Twinkle", (1,1)}
+         li reduce (IntermediateKeys, IntermediateValues) => Set of (OutputKey, OutputValue)
+         li ex)
+            ul.small-80
+               li {"Little", 1} => {"Little", 1}
+               li {"Star", 1} => {"Star", 1}
+               li {"Twinkle", (1,1)} => {"Twinkle", 2}
